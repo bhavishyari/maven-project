@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: anc95/ChatGPT-CodeReview@main
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          token: ${{ secrets.token }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # Optional
           LANGUAGE: Chinese
